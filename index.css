@@ -1,0 +1,137 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: lavender;
+    font-family: 'Courier New';
+   
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    font-size: 6.4rem;
+ 
+    
+}
+button{
+    background: lavender;
+    border-radius: 15px;
+    font-size: 2.4rem;
+  
+}
+.header-button{
+    display:flex wrap;
+    width: 30%;
+    justify-content: center;
+    
+    margin-left: 33%;
+}
+p{
+    font-size: 1.6rem;
+}
+h2{
+    font-size: 3.2rem;
+}
+
+header{
+    display: flex column;
+    text-align: center;
+    justify-content: center;
+    background-color: lightgrey;
+    border: 1px solid white;
+   
+    
+}
+header img{
+    height: 600px;
+    width:100%;
+    
+}
+
+.projects{
+   
+   display: flex;
+   justify-content: space-around;
+  
+   border: 1px solid white;
+   padding: 5px 0px ;
+   
+}
+
+.projects p{
+    display: flex;
+    justify-content: center;
+    width: 30rem;
+    text-align: center;
+    align-self: center;
+    
+    
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    margin-top: 10px;
+    height: 60px;
+    width: auto;
+    border: 1px solid white;;
+}
+footer nav{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 50%;
+    margin: 1% 0;
+    
+   
+   
+    
+}
+#contact{
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 800px){
+   h1 {
+       font-size: 4.2rem;
+   }
+   .projects{
+   
+         display: flex ;
+         justify-content: space-evenly;
+         flex-direction: column;
+    
+
+    border: 1px solid white;
+    }
+    .projects img{
+        margin-top: 1%;
+    }
+    .footer-buttons{
+        display: none;
+    }
+    #contact{
+        visibility: visible;
+        margin: 1% 0;
+    }
+
+
+}
+
+@media only screen and (max-width: 500px){
+    
+    .projects{
+   
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+   
+        border: 1px solid white;
+    }
+    
+    
+
+}
