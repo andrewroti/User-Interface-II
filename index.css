@@ -11,20 +11,20 @@ h1{
     text-align: center;
     font-style: italic;
     font-size: 6.4rem;
-    border: 1px solid red;
+ 
     
 }
 button{
     background: lavender;
     border-radius: 15px;
     font-size: 2.4rem;
-    border: 1px solid red;
+  
 }
 .header-button{
     display:flex wrap;
     width: 30%;
     justify-content: center;
-    border: 1px solid red;
+    
     margin-left: 33%;
 }
 p{
@@ -39,7 +39,8 @@ header{
     text-align: center;
     justify-content: center;
     background-color: lightgrey;
-    border: 1px solid red;
+    border: 1px solid white;
+   
     
 }
 header img{
@@ -53,13 +54,13 @@ header img{
    display: flex;
    justify-content: space-around;
   
-   border: 1px solid green;
+   border: 1px solid white;
+   padding: 5px 0px ;
    
-
-  
 }
+
 .projects p{
-    display: flex wrap;
+    display: flex;
     justify-content: center;
     width: 30rem;
     text-align: center;
@@ -76,24 +77,61 @@ footer{
     margin-top: 10px;
     height: 60px;
     width: auto;
+    border: 1px solid white;;
 }
 footer nav{
     display: flex;
-    align-items: center;
+    align-content: center;
     justify-content: center;
     width: 50%;
-   
-    border: 1px solid red;
+    margin: 1% 0;
     
+   
+   
+    
+}
+#contact{
+    visibility: hidden;
 }
 
 @media only screen and (max-width: 800px){
    h1 {
        font-size: 4.2rem;
    }
+   .projects{
+   
+         display: flex ;
+         justify-content: space-evenly;
+         flex-direction: column;
+    
+
+    border: 1px solid white;
+    }
+    .projects img{
+        margin-top: 1%;
+    }
+    .footer-buttons{
+        display: none;
+    }
+    #contact{
+        visibility: visible;
+        margin: 1% 0;
+    }
+
 
 }
 
 @media only screen and (max-width: 500px){
+    
+    .projects{
+   
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+   
+        border: 1px solid white;
+    }
+    
+    
 
 }
