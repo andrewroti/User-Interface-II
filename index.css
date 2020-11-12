@@ -1,3 +1,6 @@
+html{
+    font-size: 62.5%;
+}
 
 body{
     background-color: lavender;
@@ -7,48 +10,65 @@ body{
 h1{
     text-align: center;
     font-style: italic;
-    font-size: 64px;
+    font-size: 6.4rem;
+    border: 1px solid red;
+    
 }
 button{
     background: lavender;
     border-radius: 15px;
-    font-size: 24px;
+    font-size: 2.4rem;
+    border: 1px solid red;
 }
-
+.header-button{
+    display:flex wrap;
+    width: 30%;
+    justify-content: center;
+    border: 1px solid red;
+    margin-left: 33%;
+}
+p{
+    font-size: 1.6rem;
+}
+h2{
+    font-size: 3.2rem;
+}
 
 header{
     display: flex column;
     text-align: center;
     justify-content: center;
     background-color: lightgrey;
+    border: 1px solid red;
     
 }
 header img{
     height: 600px;
     width:100%;
+    
 }
 
 .projects{
    
    display: flex;
-   justify-content: space-evenly;
-   width: 100%;
+   justify-content: space-around;
+  
+   border: 1px solid green;
+   
 
   
 }
 .projects p{
     display: flex wrap;
     justify-content: center;
-    width: 300px;
+    width: 30rem;
     text-align: center;
     align-self: center;
     
     
 
 }
-.projects img{
-    width: 300px;
-}
+
 footer{
     display: flex;
     justify-content: center;
@@ -56,12 +76,24 @@ footer{
     margin-top: 10px;
     height: 60px;
     width: auto;
-    padding-left: 30%;
-    padding-right: 30%;
 }
 footer nav{
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 50%;
+   
+    border: 1px solid red;
     
 }
 
+@media only screen and (max-width: 800px){
+   h1 {
+       font-size: 4.2rem;
+   }
+
+}
+
+@media only screen and (max-width: 500px){
+
+}
